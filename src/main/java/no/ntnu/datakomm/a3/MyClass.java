@@ -26,7 +26,13 @@ public class MyClass {
     }
 
     private static void feature4() {
-        // TODO - print "Feature #4"
+            Scanner whatyanames = new Scanner(System.in);
+            System.out.println("Dear honoured guest, please enter your name:");
+            System.out.print("Your honourable name [Reel names]:");
+            String name = whatyanames.nextLine();
+
+            System.out.println("Blyat," + name + "!");
+            System.out.println("Invalid name entered, please get a better name!");
     }
 
     private static long getSeedFromUser()
