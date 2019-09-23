@@ -11,6 +11,7 @@ public class MyClass {
 
     private static void feature1() {
         // TODO - print "Feature #1"
+        System.out.println("Hei, PoE BEST");
     }
 
     private static void feature2() {
